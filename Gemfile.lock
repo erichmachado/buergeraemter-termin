@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/Strech/termin_de.git
-  revision: 64695ff241826fc2620044014de1918419aa239b
+  remote: git://github.com/erichmachado/termin_de.git
+  revision: 6e38f0dfd48c5e3284535755bb502c6809e86fdf
   specs:
     termin_de (0.0.1)
       curb (>= 0.8.8)
