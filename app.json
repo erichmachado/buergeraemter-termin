@@ -1,0 +1,26 @@
+{
+  "name": "Bürgerämter Termin",
+  "description": "Automatic monitoring of available Bürgeramt slots. Use with moderation and remember to shut it off afterwards.",
+  "keywords": [
+    "bürgeramt",
+    "termin"
+  ],
+  "env": {
+    "BEFORE_DATE": {
+      "description": "The maximum desired date to look for an available slot at any Bürgeramt.",
+      "value": "2016-01-30"
+    },
+    "EMAIL_TEMPLATE": {
+      "description": "Template for the body of the email that is sent when an available slot is found. You can interpolate %{link} and %{date} from termin_de.",
+      "value": "<html><body><a href="%{link}">%{date}</a></body></html>"
+    },
+    "EMAIL_TO": {
+      "description": "Email address to send availability notifications to.",
+      "value": "YOUR_EMAIL_ADDRESS"
+    },
+  },
+  "image": "heroku/ruby",
+  "addons": [
+    "sendgrid"
+  ]
+}
