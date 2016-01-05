@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Strech/termin_de.git
-  revision: 1c18e3bb24341768dcb90aa83702a2bcf5af23ee
+  revision: d03a01858a432d80cc30b7338d421a176b15728b
   specs:
     termin_de (0.0.1)
       curb (>= 0.8.8)
@@ -25,4 +25,4 @@ DEPENDENCIES
   termin_de!
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
