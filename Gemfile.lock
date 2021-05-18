@@ -16,7 +16,7 @@ GEM
     mini_portile2 (2.0.0)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
-    rake (10.4.2)
+    rake (13.0.3)
 
 PLATFORMS
   ruby
